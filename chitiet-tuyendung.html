@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/news.css">
+    <link rel="stylesheet" href="style/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .academic-achievement {
+    background-image: url("img/background-5.png");
+    }
+    .background-contact {
+      background-image: url("img/background-form-about.jpg");
+     }
+     .news-background-line {
+         /* background-image: url("img/backgruond-news.png"); */
+     }
+    .media-tabpills {
+         background-image: url("img/background-media.png");
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-5 col-md-push-7">
+                        <div class="list-header-top">
+                            <ul>
+                                <li class="neas-logo">
+                                    <img src="img/vnet-logo.png" alt="">
+                                </li>
+                                <li class="phone-hotline"><a href="tel:19006180"><span>
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                        </span> Tư vấn miễn phí: <b>19006180</b></a></li>
+                                <li class="btn-btn-btn">
+                                    <form class="form-search" method="post">
+                                        <input type="text" class="search-control" placeholder="tìm kiếm">
+                                        <button class="btn btn-search">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-menu" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/logo-top.png" alt=""></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse main-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">giới thiệu </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">chương trình học<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">tin tức <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">góc học tập <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">lịch khai giảng </a></li>
+                        <li><a href="">tuyển dụng</a></li>
+                        <li><a href="">liên hệ</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+    <!-- banner -->
+    <div class="banner banner-news">
+        <div class="link-signup">
+            <a href="">Đăng ký ngay</a>
+        </div>
+        <div class="forms-signup">
+            <div class="tile-form-banner">
+                <h2>FORM ĐĂNG KÝ</h2>
+            </div>
+            <form class="form-signup-news">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Họ và tên*">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Số điện thoại*">
+                </div>
+                <div class="form-group">
+                    <select name="" class="form-control">
+                        <option value="">-- khi vực--</option>
+                    </select>
+                </div>
+                <div class="group-button">
+                    <button class="btn btn-submit">Đăng ký ngay</button>
+                </div>
+            </form>
+        </div>
+        <div class="banner-item">
+            <img src="img/tintuc/banner-news.jpg" alt="">
+        </div>
+    </div>
+    <!-- End banner -->
+    <!-- categories -->
+    <div class="categories">
+        <div class="container">
+            <div class="title-media title-category">
+                <h2>GÓC TUYỂN DỤNG</h2>
+                <div class="border-title">
+                    <div class="border-thumbnail">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-8 content content-cate">
+                    <header class="title-recruitment">
+                        <h1>
+                            TUYỂN GIÁO VIÊN VIỆT NAM
+                        </h1>
+                        <div class="list-recruitment">
+                            <ul>
+                                <li><b>Số lượng:</b> 02 người</li>
+                                <li><b>Chi nhánh:</b> Long Biên, Hà Nội</li>
+                                <li class="indent">Hai Bà Trưng, Hà Nội</li>
+                                <li><b>Vị trí: Giáo viên Việt Nam</b></li>
+                                <li><b>Mức lương:</b> cạnh tranh</li>
+                                <li><b>Thông tin chi tiết:</b></li>
+                            </ul>
+                        </div>
+                        <div class="summary">
+                            Từ ngày 11 - 14/04/ 2019, chương trình ưu đãi thường niên "Ngày vàng SCOTS" tiếp tục mang
+                            ưu đãi cực lớn đến học viên và quý phụ huynh. Ưu đã cực lớn lên tới 45% học phí cho các khoá
+                            học tại Hệ thống Anh ngữ chuẩn quốc tế trên địa bàn Hà Nội.
+                        </div>
+                    </header>
+                    <article class="content-node">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate aut minima assumenda quos quis! Nesciunt, veritatis accusamus! Distinctio harum excepturi suscipit minus, deserunt est vero soluta, porro explicabo tenetur iusto totam neque officiis officia quia debitis provident facilis unde, sunt sit. Iure accusamus repellat ipsa laborum accusantium illo aspernatur, alias iste ut nisi error, tenetur nostrum dolor. Quas commodi cum nobis ab dolores aut sapiente nam itaque culpa in, quod ad accusantium labore asperiores quis possimus, fugiat ipsam! Et, velit, maxime a eveniet nam laboriosam architecto numquam incidunt, sunt culpa illo? Fugit dolorum nulla deleniti veritatis natus deserunt fugiat ipsa tempore delectus architecto temporibus vero omnis, fuga est, provident rerum ex. Odit culpa dicta sint iste, libero, animi repellendus accusamus fuga aperiam ad autem ut sequi necessitatibus dolorem voluptatibus sapiente excepturi possimus obcaecati! Doloribus, deserunt! Modi veritatis tempore voluptas quaerat, dolor pariatur ipsum molestias suscipit minima! Quia deserunt cumque, enim, suscipit ea vitae iusto exercitationem omnis officiis incidunt iure laborum amet ducimus vel natus nisi, in commodi aliquid necessitatibus laudantium aut accusamus quae. Provident dolor culpa nemo obcaecati veritatis ipsum vitae, placeat non, porro cupiditate ex ad itaque repellendus in eos quaerat, consequuntur optio magnam fuga tempore natus harum ducimus earum beatae? Soluta obcaecati, quibusdam, quasi animi illum nam magnam dolor veniam! Nisi, corporis nulla quaerat pariatur ducimus porro sapiente adipisci voluptatibus iste. Fuga neque sequi, odit exercitationem ex facilis quisquam dolores minima qui dignissimos praesentium at sint. Quaerat tenetur fugit, quisquam inventore ducimus. Fugiat deleniti vitae rem facilis quo laudantium, cumque veritatis praesentium? Deserunt est quisquam cumque dolorem. Nam aliquam eum numquam porro beatae itaque quam in, tenetur nulla earum hic odio praesentium eveniet suscipit, facilis. Explicabo aut ab nesciunt dolor, magni quidem ipsum modi animi possimus, voluptates nulla reprehenderit. Hic voluptatibus enim, natus consequuntur alias neque tempora amet velit saepe voluptatem, modi nisi adipisci unde quo eligendi dignissimos provident numquam praesentium laborum molestiae perspiciatis minus voluptates consequatur asperiores! Necessitatibus quae ipsum perspiciatis autem repellendus, sunt, non. Corrupti minima delectus neque tempore consequatur ipsum animi incidunt, cumque nisi libero explicabo dolores ab ipsam? Deleniti sapiente qui hic modi, veritatis? Iure et esse perferendis, accusamus placeat sed, minima, officiis tempora fugiat voluptatum eligendi, at omnis consequatur eveniet est dignissimos sint illo tenetur reprehenderit earum harum perspiciatis quas modi delectus. Veritatis, sapiente labore. Aut nam eum harum excepturi incidunt reiciendis modi unde ab earum, aspernatur temporibus voluptate at cum mollitia voluptatum nemo, ipsum molestias, in eos suscipit! Ea perferendis doloremque maxime cumque nostrum adipisci sed vitae error eligendi reiciendis. Alias ab odio voluptatum neque et, dolorem consequatur perspiciatis qui. Illo voluptates non nesciunt eligendi consectetur, labore, repellendus incidunt facilis obcaecati nemo facere at nisi voluptate vel optio molestias est quam sunt corporis soluta doloremque pariatur enim voluptatibus eveniet iste? Distinctio repellat, culpa unde earum ipsa necessitatibus deserunt facilis eveniet saepe a maxime fugiat modi, architecto minus dolorum tempore rerum praesentium. Nihil consectetur ipsa, iure! Eos nostrum obcaecati labore ullam necessitatibus, dolorem! Debitis voluptatum tenetur quidem alias quasi expedita, eveniet dolore.
+                    </article>
+                    <footer class="footer-node">
+                    </footer>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 remove-display sidebar">
+                    <div class="title-sidebar">
+                        <h3>ỨNG TUYỂN TRỰC TUYẾN</h3>
+                        <p>
+                            Nếu bạn thấy vị trí này phù hợp với nhu cầu và 
+                            khả năng của mình, hãy gửi ngay CV đến 
+                            SCOTS ENGLISH AUSTRALIA bằng cách nhập 
+                            thông tin vào form bên dưới. Xin trân trọng 
+                            cảm ơn!
+                        </p>
+                    </div>
+                    <div class="form-cv">
+                        <form action="">
+                              <div class="form-group">
+                                <select name="" class="form-control">
+                                    <option value="">
+                                        --Vị trí ứng tuyển--
+                                    </option>
+                                </select>
+                              </div>
+                              <div class="form-group">
+                                  <input type="text" class="uload-filecv">
+                                  <button class="btn-upload">UPLOAD</button>
+                              </div>
+                            <div class="submit-cv">
+                                <button class="btn-cv">GỬI CV</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="list-news-siderbar">
+                        <h3>TIN TỨC NỔI BẬT</h3>
+                        <div class="node-sidebar">
+                            <div class="col-xs-4 custom-siderbar">
+                                  <a href=""><img src="img/tuyendung/chitiet-tuyendung.jpg" alt=""></a>
+                            </div>
+                            <div class="col-xs-8 custom-siderbar">
+                                <h4><a href="">Cùng SCOTS ENGLISH xem ngay trường học chỉ giành cho giới siêu giàu</a></h4>
+                            </div>
+                        </div>
+                         <div class="node-sidebar">
+                            <div class="col-xs-4 custom-siderbar">
+                                <a href=""><img src="img/tuyendung/chitiet-tuyendung.jpg" alt=""></a>
+                            </div>
+                            <div class="col-xs-8 custom-siderbar">
+                                 <h4><a href="">Cùng SCOTS ENGLISH xem ngay trường học chỉ giành cho giới siêu giàu</a></h4>
+                            </div>
+                        </div>
+                         <div class="node-sidebar">
+                            <div class="col-xs-4 custom-siderbar">
+                                <a href=""><img src="img/tuyendung/chitiet-tuyendung.jpg" alt=""></a>
+                            </div>
+                            <div class="col-xs-8 custom-siderbar">
+                                 <h4><a href="">Cùng SCOTS ENGLISH xem ngay trường học chỉ giành cho giới siêu giàu</a></h4>
+                            </div>
+                        </div>
+                         <div class="node-sidebar">
+                            <div class="col-xs-4 custom-siderbar">
+                                <a href=""><img src="img/tuyendung/chitiet-tuyendung.jpg" alt=""></a>
+                            </div>
+                            <div class="col-xs-8 custom-siderbar">
+                               <h4><a href="">Cùng SCOTS ENGLISH xem ngay trường học chỉ giành cho giới siêu giàu</a></h4>
+                            </div>
+                        </div>
+                         <div class="node-sidebar">
+                            <div class="col-xs-4 custom-siderbar">
+                                <a href=""><img src="img/tuyendung/chitiet-tuyendung.jpg" alt=""></a>
+                            </div>
+                            <div class="col-xs-8 custom-siderbar">
+                                <h4><a href="">Cùng SCOTS ENGLISH xem ngay trường học chỉ giành cho giới siêu giàu</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End content -->
+    <!--góc tuyển dụng-->
+    <div class="recruitmentdtable">
+        <div class="container">
+            <div class="title-table-recruitment">
+                <h2>CÁC VỊ TRÍ TUYỂN DỤNG</h2>
+            </div>
+            <div class="table-responsive table-recruitment">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Vị trí</th>
+                            <th>Chi nhánh</th>
+                            <th>Mức lương</th>
+                            <th>Chi tiết</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>
+                                <a href="">Giám đốc trung tâm Scots English</a>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Long Biên - Hà Nội</li>
+                                    <li>Hai Bà Trưng - Hà Nội</li>
+                                </ul>
+                            </td>
+                            <td>Cạnh tranh</td>
+                            <td>
+                                <a href="" class="seemore">Chi tiết</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>
+                                <a href="">Nhân viên tư vấn tuyển sinh toàn hệ thống</a>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Hai Bà Trưng - Hà Nội</li>
+                                    <li>Linh Đàm - Hà Nội</li>
+                                    <li>Cầu Giấy - Hà Nội</li>
+                                    <li>Long Biên - Hà Nội</li>
+                                    <li>Trung Hòa - Nhân Chính - Hà Nội</li>
+                                </ul>
+                            </td>
+                            <td>6 - 9 triệu Lương cứng +<br>
+                                % doanh số. Thu nhập <br>
+                                lên đến 20 - 30 triệu/tháng</td>
+                            <td>
+                                <a href="" class="seemore">Chi tiết</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>
+                                <a href="">Trưởng phòng kinh doanh</a>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Long Biên - Hà Nội</li>
+                                    <li>Hai Bà Trưng - Hà Nội</li>
+                                </ul>
+                            </td>
+                            <td>Cạnh tranh</td>
+                            <td>
+                                <a href="" class="seemore">Chi tiết</a>
+                            </td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>
+                                <a href="">Giáo viên nước ngoài</a>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Long Biên - Hà Nội</li>
+                                    <li>Hai Bà Trưng - Hà Nội</li>
+                                </ul>
+                            </td>
+                            <td>
+                                Cạnh tranh
+                            </td>
+                            <td>
+                                <a href="" class="seemore">Chi tiết</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>05</td>
+                            <td>
+                                <a href="">Nhân viên tuyển dụng và phát triển giáo viên</a>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Hai Bà Trưng - Hà Nội</li>
+                                    <li>Linh Đàm - Hà Nội</li>
+                                    <li>Cầu Giấy - Hà Nội</li>
+                                    <li>Long Biên - Hà Nội</li>
+                                    <li>Trung Hòa - Nhân Chính - Hà Nội</li>
+                                </ul>
+                            </td>
+                            <td>
+                                6 - 9 triệu Lương cứng +<br>
+                                % doanh số. Thu nhập <br>
+                                lên đến 20 - 30 triệu/tháng
+                            </td>
+                            <td>
+                                <a href="" class="seemore">Chi tiết</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!--End góc tuyển dụng-->
+    <!--Contact form-->
+    <div class="contact background-contact">
+        <div class="container">
+            <div class="title-contact">
+                <h2>NHẬN TƯ VẤN LỘ TRÌNH ANH NGỮ</h2>
+                <div class="border-title">
+                    <div class="border-thumbnail">
+                    </div>
+                </div>
+            </div>
+            <form class="form-contact">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
+                        <div class="form-group">
+                            <input type="email" class="form-control  custom-input" placeholder="Họ và tên*">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control  custom-input" placeholder="Số điện thoại*">
+                        </div>
+                        <div class="form-group">
+                            <select name="" class="form-control custom-input">
+                                <option value="">--Khu vực--</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-12  col-sm-6 col-md-5">
+                        <div class="form-group">
+                            <textarea class="form-control custom-text"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="btn-contact">
+                            <button type="submit" class="submit-form-contact">GỬI THÔNG TIN</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--End contact form -->
+    <!--media tab-->
+    <div class="media-tab">
+        <div class="container">
+            <div class="title-media">
+                <h3>HÌNH ẢNH HOẠT ĐỘNG</h3>
+                <div class="border-title">
+                    <div class="border-thumbnail">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-1">
+                    <div class="media-tabpills">
+                        <div class="tabpill">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab" href="#picture">Hình ảnh</a></li>
+                                <li><a data-toggle="tab" href="#video">Video</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div id="picture" class="tab-pane fade active in">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                        <div class="image-media">
+                                            <img src="img/img-about-08.jpg" alt="">
+                                            <h4>CÁC HOẠT ĐỘNG NỔI BẬT</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                        <div class="image-media">
+                                            <img src="img/img-about-09.jpg" alt="">
+                                            <h4>HÌNH ẢNH GIẢNG DẠY</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                        <div class="image-media">
+                                            <img src="img/img-about-10.jpg" alt="">
+                                            <h4>HÌNH ẢNH VĂN HÓA CÔNG TY</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="link-remove">
+                                    <a href="">Xem tất cả></a>
+                                </div>
+                            </div>
+                            <div id="video" class="tab-pane fade">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-4">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End media tab-->
+    <!-- achievement -->
+    <div class="academic-achievement">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="block">
+                        <div class="icons">
+                            <img src="img/icons-01.png" alt="">
+                        </div>
+                        <div class="pro-info">
+                            <h4 class="counter" data-count="315">0</h4>
+                            <div class="border-count"></div>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="block">
+                        <div class="icons">
+                            <img src="img/icons-02.png" alt="">
+                        </div>
+                        <div class="pro-info">
+                            <h4 class="counter" data-count="13">0</h4>
+                            <div class="border-count"></div>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="block">
+                        <div class="icons">
+                            <img src="img/icons-03.png" alt="">
+                        </div>
+                        <div class="pro-info">
+                            <h4 class="counter" data-count="14614">0</h4>
+                            <div class="border-count"></div>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="block lest-child">
+                        <div class="icons">
+                            <img src="img/icons-04.png" alt="">
+                        </div>
+                        <div class="pro-info">
+                            <h4 class="counter" data-count="5">0</h4>
+                            <div class="border-count"></div>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End achievement-->
+    <!-- liên kết đối tác-->
+    <div class="partner-link">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-4 col-md-2 custom-col-xs">
+                    <a href="" class="link">
+                        <img src="img/DoiTac/dt1.jpg" alt="" width="245" height="121">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 custom-col-xs">
+                    <a href="" class="link">
+                        <img src="img/DoiTac/dt2.jpg" alt="" width="245" height="121">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 custom-col-xs">
+                    <a href="" class="link">
+                        <img src="img/DoiTac/dt3.jpg" alt="" width="245" height="121">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 custom-col-xs">
+                    <a href="" class="link">
+                        <img src="img/DoiTac/dt4.jpg" alt="" width="245" height="121">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 custom-col-xs">
+                    <a href="" class="link">
+                        <img src="img/DoiTac/dt5.jpg" alt="" width="245" height="121">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2 custom-col-xs">
+                    <a href="" class="link">
+                        <img src="img/DoiTac/dt6.jpg" alt="" width="245" height="121">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end lien kết-->
+    <!-- Footer -->
+    <footer id="foooter" class="background-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row row-custom">
+                    <div class="col-xs-12 col-md-6 col-custom">
+                        <div class="logo-footer">
+                            <img src="img/Screen-Shot-2019-03-22-at-10.43.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-5">
+                        <div class="lis-Lien-he-1">
+                            <h3>Thế giới</h3>
+                            <ul>
+                                <li>
+                                    <span class="fa-maps"><i class="fa fa-map-marker" aria-hidden="true"></i> </span>
+                                    Level 5, 127 Liverpool Street, <br>
+                                    Sydney NSW 2000, Australia.
+                                </li>
+                                <li>
+                                    <span class="fa-phones"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                    Hotline: 18006180
+                                </li>
+                                <li>
+                                    <span class="fa-envelopes"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                                    Email: vutienscotsenglish@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="lis-Lien-he-1">
+                            <h3>Việt nam</h3>
+                            <ul>
+                                <li>
+                                    <span class="fa-maps"><i class="fa fa-map-marker" aria-hidden="true"></i> </span>
+                                    Tầng 2, dự án HPC Landmark 105 <br>
+                                    Tố Hữu, La Khê, Hà Đông, Hà Nội.
+                                </li>
+                                <li>
+                                    <span class="fa-phones"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                    Hotline: 0948438008
+                                </li>
+                                <li>
+                                    <span class="fa-facebooks"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                                    Fanpage: https://www.facebook.com/<br>
+                                    scotsenglish.vn/
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-5 col-md-2">
+                        <div class="dodo">
+                            <h3>du học tsm</h3>
+                            <div class="pro-img">
+                                <img src="img/tmsedufooter.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <span class="fa-facebooks"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span class="fa-youtubes"><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span class="fa-googles"><i class="fa fa-google-plus" aria-hidden="true"></i></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span class="fa-twitters"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fanpage">
+                            <img src="img/pagefacebook.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="menu-footer">
+                        <ul>
+                            <li><a href="">Khóa học</a></li>
+                            <li><a href="">Tiếng Anh mẫu giáo</a></li>
+                            <li><a href="">Tiếng Anh trẻ em</a></li>
+                            <li><a href="">Tiếng Anh cho Team</a></li>
+                            <li><a href="">Tiếng Anh Nền tảng</a></li>
+                            <li><a href="">Luyện thi IELTS</a></li>
+                            <li><a href="">Lịch khai giảng </a></li>
+                            <li><a href="">Liên hệ </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="copy">Copyright 2018 © <a href=""> <span>Scots English Australia<span /> </a> | Hệ thống Trường Anh ngữ Quốc tế từ Australia | cấp phép hoạt động số 1177/GCN do Bộ giáo dục và đào tạo cấp
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End footer -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
